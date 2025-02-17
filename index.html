@@ -66,17 +66,21 @@
                   id="medical-info"
                   placeholder="A criança possui alguma condição médica que devamos estar cientes? (Se sim, especifique)"
                   cols="30"
-                  rows="10"
+                  rows="5"
                 ></textarea>
               </div>
 
               <div class="droparea-wrapper">
-                <input type="file" id="birth-file" name="birth-file" />
-                <img src="./assets/Interface Icons/cloud-upload.svg" alt="">
-                <p>
-                  Clique aqui para <br>
-                  selecionar os arquivos
-                </p>
+                <label for="birth-file">Certidão de nascimento</label>
+
+                <div class="dropzone">
+                  <input type="file" id="birth-file" name="birth-file" />
+                  <img src="./assets/Interface-icons/cloud-upload.svg" alt="" />
+                  <p>
+                    Clique aqui para <br />
+                    selecionar os arquivos
+                  </p>
+                </div>
               </div>
             </fieldset>
           </form>
